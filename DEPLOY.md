@@ -12,14 +12,6 @@ To send someone a link, publish the folder to static hosting.
 
 Best long-term free option.
 
-This project includes:
-
-```text
-.github/workflows/pages.yml
-```
-
-That workflow publishes the static site from the repository root whenever `main` is pushed.
-
 1. Create a new GitHub repository, for example `resume-showcase-page`.
 2. Upload these project files to the repository:
    - `index.html`
@@ -29,8 +21,11 @@ That workflow publishes the static site from the repository root whenever `main`
    - `README.md`
 3. In GitHub, open the repository.
 4. Go to `Settings` -> `Pages`.
-5. Under `Build and deployment`, choose `GitHub Actions`.
-6. Push to `main` and wait for the workflow to finish.
+5. Under `Build and deployment`, choose:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/root`
+6. Save and wait a minute or two.
 
 Your public link will look like:
 
