@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume Showcase</title>
+    <meta name="description" content="A modern one-page resume showcase.">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <div class="page-frame">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-mark">GO</span>
+          <span class="brand-copy">
+            <span class="brand-name" data-field="name">Guillermo Otero</span>
+            <span class="brand-line">Resume showcase</span>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+            <span aria-hidden="true">T</span>
+          </button>
+          <button class="button compact" id="printButton" type="button">Print</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="intro-section" aria-labelledby="pageTitle">
+          <div class="intro-copy">
+            <p class="eyebrow" data-field="availability">Available for high-impact engineering roles</p>
+            <h1 id="pageTitle" data-field="headline">Software engineer focused on reliable platforms, workflow automation, and modern web systems.</h1>
+            <p class="lead" data-field="summary">
+              I build practical systems that connect users, data, and operations. My work spans full-stack application delivery, cloud infrastructure, integration design, and tools that make complex business processes easier to run.
+            </p>
+
+            <div class="cta-row">
+              <a class="button primary" data-link="email" href="mailto:your.email@example.com">Email me</a>
+              <a class="button" data-link="linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="button" data-link="github" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <aside class="profile-panel" aria-label="Profile snapshot">
+            <div class="portrait-card">
+              <div class="portrait-grid" aria-hidden="true">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="portrait-initials" data-field="initials">GO</div>
+            </div>
+
+            <div class="quick-facts" id="quickFacts"></div>
+          </aside>
+        </section>
+
+        <section class="metric-band" id="metrics" aria-label="Career metrics"></section>
+
+        <section class="content-section" id="experience" aria-labelledby="experienceTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Track Record</p>
+            <h2 id="experienceTitle">Experience</h2>
+          </div>
+          <div class="timeline" id="experienceList"></div>
+        </section>
+
+        <section class="content-section split" id="projects" aria-labelledby="projectsTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2 id="projectsTitle">Projects</h2>
+          </div>
+          <div class="project-grid" id="projectList"></div>
+        </section>
+
+        <section class="content-section split" id="skills" aria-labelledby="skillsTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Toolbox</p>
+            <h2 id="skillsTitle">Skills</h2>
+          </div>
+          <div class="skills-layout">
+            <div class="skill-groups" id="skillGroups"></div>
+            <div class="credential-panel">
+              <h3>Certifications and education</h3>
+              <div id="credentialList"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contactTitle">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contactTitle">Let's talk about the next build.</h2>
+          </div>
+          <div class="contact-actions">
+            <button class="button primary" id="copyEmailButton" type="button">Copy email</button>
+            <a class="button" data-link="resume" href="#" target="_blank" rel="noreferrer">Resume PDF</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="src/resume-data.js"></script>
+    <script src="src/app.js"></script>
+  </body>
+</html>
