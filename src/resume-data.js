@@ -1,102 +1,102 @@
 window.RESUME_DATA = {
   name: "Guillermo Otero",
   initials: "GO",
-  title: "Software Engineer",
+  title: "Front-End Web Developer",
   location: "United States",
   email: "your.email@example.com",
-  linkedin: "https://www.linkedin.com/in/your-profile",
-  github: "https://github.com/your-handle",
+  linkedin: "https://www.linkedin.com/in/guillermo-otero-4537aa1b5/",
+  github: "https://github.com/guillermooterobftg",
   resumePdf: "#",
-  availability: "Available for high-impact engineering roles",
-  headline: "Software engineer focused on reliable platforms, workflow automation, and modern web systems.",
+  availability: "Front-end web developer focused on modern user experiences",
+  headline: "Front-end web developer building fast, responsive, and polished interfaces for real users.",
   summary:
-    "I build practical systems that connect users, data, and operations. My work spans full-stack application delivery, cloud infrastructure, integration design, and tools that make complex business processes easier to run.",
+    "I build clean, practical web experiences with strong attention to layout, interaction, accessibility, and maintainable front-end code. I care about turning product ideas into interfaces that feel sharp, usable, and reliable across desktop and mobile.",
   facts: [
-    { label: "Focus", value: "Full-stack systems" },
-    { label: "Strength", value: "Practical delivery" },
+    { label: "Focus", value: "Front-end development" },
+    { label: "Strength", value: "Modern responsive UI" },
     { label: "Location", value: "United States" }
   ],
   metrics: [
-    { value: "8+", label: "Production systems supported" },
-    { value: "5", label: "Core domains: web, APIs, data, cloud, AI" },
-    { value: "200+", label: "Users designed for in workflow tools" },
-    { value: "0-1", label: "Prototype to production mindset" }
+    { value: "UI", label: "Interfaces built around clarity, flow, and usability" },
+    { value: "JS", label: "JavaScript-driven interactions and app behavior" },
+    { value: "CSS", label: "Responsive layouts, visual systems, and polish" },
+    { value: "UX", label: "Product-minded approach from idea to shipped screen" }
   ],
   experience: [
     {
-      role: "Software Engineer",
+      role: "Front-End Web Developer",
       company: "Current / Recent Role",
       period: "2024 - Present",
       summary:
-        "Built and maintained web applications, internal tools, and integration workflows for operational teams.",
+        "Built and refined user-facing web interfaces with a focus on usability, responsiveness, and maintainable front-end structure.",
       bullets: [
-        "Designed user-facing workflows that reduced manual handoffs and made status easier to track.",
-        "Integrated APIs, databases, and cloud services into reliable application paths.",
-        "Partnered with product and operations stakeholders to turn ambiguous needs into shippable releases."
+        "Created responsive page layouts and reusable UI sections that work cleanly across desktop and mobile.",
+        "Implemented interactive JavaScript behavior for navigation, filtering, theme switching, forms, and dynamic content.",
+        "Translated rough requirements into polished screens with clear visual hierarchy and practical user flows."
       ],
-      tags: ["Web apps", "APIs", "Cloud", "Automation"]
+      tags: ["HTML", "CSS", "JavaScript", "Responsive UI"]
     },
     {
-      role: "Application Developer",
+      role: "Web Developer",
       company: "Previous Role",
       period: "2021 - 2024",
       summary:
-        "Delivered business-critical application features with attention to maintainability, monitoring, and user experience.",
+        "Supported web application delivery across landing pages, dashboards, internal tools, and browser-based workflows.",
       bullets: [
-        "Improved forms, dashboards, and reporting surfaces used by internal business teams.",
-        "Created reusable service patterns for data access, validation, and workflow state.",
-        "Supported releases, production debugging, and cross-team delivery planning."
+        "Improved forms, content sections, dashboards, and navigation patterns used by internal and external users.",
+        "Worked with API-backed data and front-end state to keep interfaces predictable and easy to use.",
+        "Tested browser behavior, fixed layout issues, and supported iterative releases."
       ],
-      tags: ["JavaScript", "SQL", "Dashboards", "Support"]
+      tags: ["Web apps", "UI components", "Browser testing", "Git"]
     }
   ],
   projects: [
     {
-      name: "Workflow Console",
-      type: "Product UI",
+      name: "Modern Resume Site",
+      type: "Portfolio UI",
       description:
-        "A modern operations console for tracking requests, approvals, evidence, audit events, and system health in one place.",
-      impact: "Turned scattered process state into a single action-oriented interface.",
-      stack: ["HTML", "CSS", "JavaScript", "API design"]
+        "A responsive one-page resume website with dynamic content, dark mode, print support, and GitHub Pages deployment.",
+      impact: "Created a polished public link that presents experience, projects, skills, and contact info in one place.",
+      stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
     },
     {
-      name: "Cloud Integration Blueprint",
-      type: "Architecture",
+      name: "Interactive Dashboard Prototype",
+      type: "Frontend App",
       description:
-        "A technical plan for secure app hosting, API gateways, identity, observability, and workflow state on Azure.",
-      impact: "Created a clear path from pilot delivery to production operations.",
-      stack: ["Azure", "APIM", "AKS", "PostgreSQL"]
+        "A browser-based dashboard prototype with searchable records, tabbed panels, status cards, and mock workflow actions.",
+      impact: "Showed how dense operational data can become a clear, usable interface.",
+      stack: ["JavaScript", "Responsive CSS", "UI state", "Data rendering"]
     },
     {
-      name: "AI-Assisted Operations",
-      type: "Prototype",
+      name: "Component-First Web Layouts",
+      type: "UI System",
       description:
-        "A governed AI workflow concept with prompt versioning, budget controls, audit logging, and human approval gates.",
-      impact: "Balanced automation with traceability and compliance needs.",
-      stack: ["AI workflows", "Audit", "RBAC", "UX"]
+        "Reusable page sections for hero areas, cards, timelines, skill groups, metrics, and contact panels.",
+      impact: "Established consistent spacing, hierarchy, and responsive behavior across the page.",
+      stack: ["CSS Grid", "Flexbox", "Design systems", "Accessibility"]
     }
   ],
   skills: [
     {
       group: "Frontend",
-      items: ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Responsive UI"]
+      items: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Responsive UI"]
     },
     {
-      group: "Backend",
-      items: ["REST APIs", "SQL", "PostgreSQL", "Authentication", "Workflow logic"]
+      group: "UI Engineering",
+      items: ["Component design", "CSS Grid", "Flexbox", "Stateful UI", "Accessibility"]
     },
     {
-      group: "Cloud and DevOps",
-      items: ["Azure", "API Management", "Application Insights", "CI/CD", "Containers"]
+      group: "Workflow",
+      items: ["Git", "GitHub Pages", "Browser testing", "Code review", "Debugging"]
     },
     {
       group: "Product Delivery",
-      items: ["Requirements", "Prototyping", "Stakeholder demos", "Release planning"]
+      items: ["Prototyping", "Requirements", "Visual polish", "Stakeholder demos"]
     }
   ],
   credentials: [
-    "Degree / program - replace with your education",
-    "Certification - replace with your certification",
-    "Relevant training - replace with your training"
+    "Front-end development - HTML, CSS, JavaScript, and responsive layout",
+    "Modern web tooling - Git, browser dev tools, and static hosting",
+    "UI craft - accessibility, interaction design, and maintainable components"
   ]
 };
